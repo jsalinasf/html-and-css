@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.3125rem;
+}
+
+h1 {
+  color: crimson;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 800;
+}
+
+p {
+  color: #fff;
+  font-size: 1.33rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.container {
+  width: 50%;
+}
+
+.background-image {
+  background-image: url(../images/image03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.text-elements {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 2.5rem;
+}
+
+.text-effects {
+  backdrop-filter: blur(1px) saturate(90%) contrast(80%);
+}
+
+.text-elements > * {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.position-first {
+  order: -1;
+}
+
+.right-side {
+  justify-content: space-around;
+}
+
+.right-side > p {
+  color: #282828;
+}
+
+.right-side > h2 {
+  font-size: 3rem;
+}
+
+.company-name-color {
+  color: rgb(13, 50, 172);
+}
