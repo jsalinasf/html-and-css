@@ -9,12 +9,16 @@ body {
   height: 800px;
   border: 4px solid black;
 
-  /* grid options */
+  /* GRID OPTIONS */
 
-  /* MAkes the whole container an inline element - watch span IM INLINE! */
+  /* Makes the whole container an inline element - watch span IM INLINE! */
   /* display: inline-grid; */
 
   display: grid;
+
+  /* Define columns in a Grid */
+  /* grid-template-columns: 150px 250px 150px; */
+  grid-template-columns: 150px 150px 150px 150px;
 }
 
 .box {
